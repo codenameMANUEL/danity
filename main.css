@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav{
+    height: 100px;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #eeebeb;
+    z-index: 99;
+}
+.toBeFlexed{
+    display: flex;
+    justify-content: space-between;
+}
+.navImgside{
+    width: 72px;
+}
+.navImgCenter{
+    padding-top: 18px;
+    width: 35px;
+}
+.search-icon{
+    width: 20px;
+}
+.customer-icon{
+    width: 22px;
+}
+.heart-icon{
+    width: 22px;
+}
+.bag-icon{
+    width: 22px;
+}
+.listItemOne ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.listItemOne li{
+    margin: 0 7px;
+    color: #94726c;
+}
+.listItemOne {
+    margin-top: -90px;
+    margin-right: 50px;
+}
+.listItemOne li:hover{
+    cursor: pointer;
+}
+.counter{
+    margin-top: 20px;
+}
+.listItemTwo ul{
+    display: flex;
+}
+.listItemTwo li{
+    margin: 40px 0px 0px 55px;
+    font-size: 15px;
+}
+.listItemTwo a{
+    text-decoration: none;
+    color: black;
+}
+.listItemTwo li:hover{
+    color: #94726c;
+    cursor: pointer;
+}
+.banner{
+    background: url(./img/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.hiddenn-space{
+    padding-top: 83px;
+}
+
+/* comfy */
+.breadcrumb{
+    padding: 35px 0px 10px 40px;
+}
+.comfySectionOne{
+    display: grid;
+    max-width: 1500px;
+    background-color: red;
+    grid-template-columns: 300px 900px;
+    padding: 0px 30px;
+}
+.comfySectionOne img{
+    max-width: 100%;
+}
+.comfySectionOne-listItem li{
+    padding: 30px;
+    border-bottom: 1px solid blue;
+}
+/* comfy */
